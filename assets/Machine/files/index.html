@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Machine Records — Página Inicial</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* ── HERO ── */
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      min-height: 520px;
+      border-bottom: 1px solid var(--gray);
+    }
+
+    .hero-text {
+      padding: 80px 60px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .hero-eyebrow {
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--teal);
+    }
+
+    .hero-title {
+      font-family: 'DM Serif Display', serif;
+      font-size: 3.2rem;
+      line-height: 1.1;
+      color: var(--white);
+    }
+
+    .hero-title em {
+      color: var(--blue);
+      font-style: italic;
+    }
+
+    .hero-desc {
+      font-size: 0.92rem;
+      color: var(--teal);
+      line-height: 1.7;
+      max-width: 380px;
+      font-weight: 300;
+    }
+
+    .hero-actions { display: flex; gap: 12px; }
+
+    .hero-image {
+      position: relative;
+      background: #111;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hero-image .img-placeholder {
+      width: 100%;
+      height: 100%;
+      border-radius: 0;
+      font-size: 0.8rem;
+    }
+
+    .hero-badge {
+      position: absolute;
+      bottom: 30px;
+      left: -24px;
+      background: var(--gold);
+      color: var(--dark);
+      padding: 12px 20px;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+    }
+
+    /* ── STRIP ── */
+    .strip {
+      border-bottom: 1px solid var(--gray);
+      padding: 16px 60px;
+      display: flex;
+      gap: 48px;
+      overflow: hidden;
+    }
+    .strip span {
+      font-size: 0.72rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--teal);
+      white-space: nowrap;
+    }
+    .strip span b { color: var(--white); font-weight: 500; }
+
+    /* ── SECTION ── */
+    .section { padding: 60px; }
+    .section-header { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 32px; }
+
+    .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+
+    /* ── FEATURED ── */
+    .featured {
+      background: var(--gray);
+      border-radius: 6px;
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      min-height: 320px;
+    }
+    .featured .img-placeholder { border-radius: 0; height: 100%; }
+    .featured-info { padding: 48px 40px; display: flex; flex-direction: column; justify-content: center; gap: 14px; }
+    .featured-tag { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--blue); }
+    .featured-title { font-family: 'DM Serif Display', serif; font-size: 1.8rem; line-height: 1.2; }
+    .featured-artist { font-size: 0.85rem; color: var(--teal); }
+    .featured-price { font-size: 1.1rem; font-weight: 500; color: var(--gold); }
+
+    /* ── FORMATS ── */
+    .format-cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+    .format-card {
+      padding: 32px;
+      border-radius: 6px;
+      border: 1px solid var(--gray-lt);
+    }
+    .format-card.vinyl { background: linear-gradient(135deg, #1a1a2e, #16213e); }
+    .format-card.cassette { background: linear-gradient(135deg, #1a1a1a, #2a1f2a); }
+    .format-icon { font-size: 2.2rem; margin-bottom: 14px; }
+    .format-name { font-family: 'DM Serif Display', serif; font-size: 1.3rem; margin-bottom: 8px; }
+    .format-desc { font-size: 0.82rem; color: var(--teal); line-height: 1.6; font-weight: 300; }
+
+    /* ── NEWSLETTER ── */
+    .newsletter {
+      background: var(--gray);
+      border-radius: 6px;
+      padding: 60px;
+      text-align: center;
+      margin: 0 60px 60px;
+    }
+    .newsletter h2 { font-family: 'DM Serif Display', serif; font-size: 2rem; margin-bottom: 8px; }
+    .newsletter p { color: var(--teal); font-size: 0.88rem; margin-bottom: 28px; }
+    .newsletter-form { display: flex; gap: 10px; max-width: 440px; margin: 0 auto; }
+    .newsletter-form input { background: #1e1e1e; border-color: var(--gray-lt); }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">
+    <img src="logo.png" alt="Machine Records">
+    <span>Machine Records</span>
+  </div>
+  <ul class="nav-links">
+    <li><a href="produtos.html">Loja</a></li>
+    <li><a href="#">Vinil</a></li>
+    <li><a href="#">Cassete</a></li>
+    <li><a href="sobre.html">Sobre</a></li>
+    <li><a href="contato.html">Contato</a></li>
+  </ul>
+  <div class="nav-actions">
+    <input class="nav-search" type="text" placeholder="Buscar artista, álbum...">
+    <a href="cadastro.html"><button class="btn btn-outline">Entrar</button></a>
+    <button class="btn btn-primary">Carrinho (0)</button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <span class="hero-eyebrow">Nova chegada — Novembro 2025</span>
+    <h1 class="hero-title">Música que<br>você <em>sente</em><br>de verdade.</h1>
+    <p class="hero-desc">Discos de vinil e fitas cassete de artistas independentes. Som analógico, experiência real.</p>
+    <div class="hero-actions">
+      <a href="produtos.html"><button class="btn btn-primary">Ver catálogo</button></a>
+      <a href="sobre.html"><button class="btn btn-outline">Nossa história</button></a>
+    </div>
+  </div>
+  <div class="hero-image">
+    <div class="img-placeholder">Foto de destaque — álbum em evidência</div>
+    <div class="hero-badge">★ Álbum da semana</div>
+  </div>
+</section>
+
+<!-- STRIP -->
+<div class="strip">
+  <span><b>Frete grátis</b> acima de R$200</span>
+  <span>✦</span>
+  <span>Mais de <b>400 títulos</b> em estoque</span>
+  <span>✦</span>
+  <span>Lacrados &amp; usados de <b>qualidade</b></span>
+  <span>✦</span>
+  <span>Enviamos para <b>todo o Brasil</b></span>
+</div>
+
+<!-- DESTAQUE -->
+<section class="section">
+  <div class="section-header">
+    <div>
+      <h2 class="section-title">Em Destaque</h2>
+      <p class="section-subtitle">Seleção da curadoria desta semana</p>
+    </div>
+    <a href="produtos.html"><button class="btn btn-outline">Ver todos</button></a>
+  </div>
+
+  <div class="featured">
+    <div class="img-placeholder">Capa do álbum em destaque (600×400)</div>
+    <div class="featured-info">
+      <span class="featured-tag">★ Curadoria da semana</span>
+      <h3 class="featured-title">Azul Depois<br>do Horizonte</h3>
+      <p class="featured-artist">Mariana Voss — Vinil 180g</p>
+      <p class="featured-price">R$ 89,90</p>
+      <button class="btn btn-gold">Adicionar ao carrinho</button>
+    </div>
+  </div>
+</section>
+
+<!-- NOVIDADES -->
+<section class="section" style="padding-top:0">
+  <div class="section-header">
+    <div>
+      <h2 class="section-title">Novidades</h2>
+      <p class="section-subtitle">Recém chegados ao estoque</p>
+    </div>
+    <a href="busca.html"><button class="btn btn-outline">Ver mais</button></a>
+  </div>
+  <div class="grid-4">
+    <div class="product-card">
+      <div class="thumb">Capa do álbum</div>
+      <div class="info">
+        <p class="artist">The Dusk Ensemble</p>
+        <p class="title">Waves &amp; Static</p>
+        <p class="format">Vinil · LP · 180g</p>
+        <p class="price">R$ 74,90</p>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="thumb">Capa do álbum</div>
+      <div class="info">
+        <p class="artist">Clara Neves</p>
+        <p class="title">Índigo</p>
+        <p class="format">Cassete · Ed. Limitada</p>
+        <p class="price">R$ 38,00</p>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="thumb">Capa do álbum</div>
+      <div class="info">
+        <p class="artist">Phantom Tide</p>
+        <p class="title">Cerulean Coast</p>
+        <p class="format">Vinil · 7" Single</p>
+        <p class="price">R$ 42,50</p>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="thumb">Capa do álbum</div>
+      <div class="info">
+        <p class="artist">João Marcelo</p>
+        <p class="title">Estações Perdidas</p>
+        <p class="format">Vinil · LP</p>
+        <p class="price">R$ 68,00</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FORMATOS -->
+<section class="section" style="padding-top:0">
+  <h2 class="section-title">Formatos</h2>
+  <p class="section-subtitle">Escolha o seu formato favorito</p>
+  <div class="format-cards">
+    <div class="format-card vinyl">
+      <div class="format-icon">💿</div>
+      <p class="format-name">Vinil</p>
+      <p class="format-desc">A experiência sonora mais completa. Álbuns em 12", 10" e 7" — incluindo edições coloridas e limitadas de artistas independentes.</p>
+      <br>
+      <a href="produtos.html"><button class="btn btn-outline" style="margin-top:8px">Ver vinils →</button></a>
+    </div>
+    <div class="format-card cassette">
+      <div class="format-icon">📼</div>
+      <p class="format-name">Cassete</p>
+      <p class="format-desc">O charme analógico das fitas. Edições artesanais e lançamentos exclusivos de bandas e artistas independentes brasileiros.</p>
+      <br>
+      <a href="produtos.html"><button class="btn btn-outline" style="margin-top:8px">Ver cassetes →</button></a>
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<div class="newsletter">
+  <h2>Fique por dentro</h2>
+  <p>Novidades, lançamentos e promoções direto no seu e-mail. Sem spam.</p>
+  <div class="newsletter-form">
+    <input type="email" placeholder="seu@email.com">
+    <button class="btn btn-blue" style="background:var(--blue);color:#fff;border:none;padding:10px 22px;border-radius:4px;cursor:pointer;white-space:nowrap">Assinar</button>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <span class="footer-brand">Machine Records</span>
+  <span>© 2025 — Todos os direitos reservados</span>
+  <div style="display:flex;gap:24px">
+    <a href="sobre.html">Sobre</a>
+    <a href="contato.html">Contato</a>
+    <a href="pedidos.html">Pedidos</a>
+  </div>
+</footer>
+
+</body>
+</html>

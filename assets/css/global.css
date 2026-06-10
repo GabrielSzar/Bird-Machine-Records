@@ -1,0 +1,162 @@
+:root {
+    --preto: #0d0d0d;
+    --cinza: #222a2b;
+    --cinzacl: #323e40;
+    --branco: #eeeeee;
+    --primaria: #95b8bf;
+    --segundaria: #d5eff2;
+    --tercearia: #d9ce96;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Elms Sans", sans-serif;
+}
+body {
+    background: black;
+}
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@font-face {
+    font-family: "ariosto";
+    src: url("/assets/font/ARIOSTO.TTF") format("truetype");
+}
+a {
+    text-decoration: none;
+    color: var(--branco);
+}
+nav {
+    border-bottom: solid 1px var(--cinza);
+    background-color: var(--preto);
+    justify-content: space-between;
+    display: flex;
+    height: 88px;
+    padding: 0px 2rem;
+}
+nav > div {
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    gap: 1.5rem;
+}
+.logo {
+    background: url(/assets/img/logo.png);
+    background-size: cover;
+}
+.brand-name {
+    font-family: "ariosto";
+    font-size: 24px;
+    color: var(--segundaria);
+}
+.brand-link {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+.nav-logo {
+    width: 64px;
+    height: 64px;
+}
+.nav-links a {
+    text-transform: uppercase;
+    transition: 0.5s ease;
+    padding: 4px;
+    display: inline-block;
+    font-weight: 350;
+}
+.nav-links a:hover,
+.dropdown:hover .dropdown-elem {
+    color: var(--primaria);
+    /*transform: scale(1.1);*/
+    .background-icon {
+        background-color: var(--primaria);
+        transition: 0.5s ease;
+    }
+}
+.dropdown {
+    position: relative;
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+}
+.dropdown-content {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: var(--preto);
+    position: absolute;
+    border-radius: 5px;
+    min-width: 196px;
+    list-style: none;
+    padding-top: 5px;
+    display: none;
+    a {
+        color: var(--branco);
+        padding: 12px 16px;
+        text-decoration: none;
+    }
+    li:not(:last-child) {
+        border-bottom: solid 1px var(--branco);
+    }
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.cassete-icon {
+    background: url(/assets/svg/cassete.svg);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    margin: 6px;
+}
+.disc-icon {
+    background: url(/assets/svg/vinyl.svg);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    margin: 6px;
+}
+.background-icon {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    margin-right: 8px;
+    border-radius: 3px;
+}
+form {
+    position: relative;
+}
+.search-input {
+    background: var(--cinza);
+    color: var(--branco);
+    border: 1px solid var(--cinzacl);
+    outline: none;
+    width: 200px;
+    height: 32px;
+    padding: 10px 40px 10px 12px;
+    border-radius: 3px;
+}
+.search-btn {
+    background: url(/assets/svg/search.svg);
+    background-size: cover;
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 26px;
+    height: 26px;
+    border: none;
+    font-size: 0.8rem;
+}
+.text-btn {
+    border: 1px solid var(--cinzacl);
+    color: var(--segundaria);
+    transition: 0.4s ease;
+    padding: 6px 16px;
+    border-radius: 3px;
+    font-size: 0.8rem;
+}
+.text-btn:hover {
+    border: 1px solid var(--primaria);
+    color: var(--primaria);
+    transform: scale(1.1);
+}
