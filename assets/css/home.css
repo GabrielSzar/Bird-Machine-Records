@@ -1,0 +1,20 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    background: var(--cinza);
+}
+.highlight {
+    background: url(../img/COTCfront800x.png);
+    background-size: cover;
+    width: 1024px;
+    height: 690px;
+}
+.preview {
+    > div {
+        padding: 48px;
+    }
+}
+.titles {
+    display: flex;
+    justify-content: space-between;
+}

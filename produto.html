@@ -10,7 +10,7 @@
             rel="stylesheet"
         />
         <link rel="stylesheet" href="./assets/css/global.css" />
-        <link rel="stylesheet" href="./assets/css/home.css" />
+        <link rel="stylesheet" href="./assets/css/produto.css" />
         <title>Bird Machine Records</title>
     </head>
     <body>
@@ -61,7 +61,9 @@
                         <li>
                             <a href="">
                                 <div class="background-icon">
-                                    <div class="sweatshirt-icon icon-size"></div>
+                                    <div
+                                        class="sweatshirt-icon icon-size"
+                                    ></div>
                                 </div>
                                 Blusas
                             </a>
@@ -108,35 +110,30 @@
             </div>
         </nav>
         <main>
-            <div class="hero">
-                <div>
-                    <h1>Novo Lançamento</h1>
-                    <p>COTC - The Single</p>
-                    <a href="produto.html?id=1" class="text-btn size">Ver Disco</a>
-                    <a href="catalogo.html" class="text-btn size">Catalogo</a>
+            <div>
+                <div class="outline-section">
+                    <img class="disco-img" src="" alt="Capa do álbum" />
                 </div>
-                <div class="highlight"></div>
+                <div class="outline-section">
+                    <h1>Descrição</h1>
+                    <p class="disco-desc"></p>
+                </div>
             </div>
+            <div>
+                <div class="outline-section">
+                    <h1 class="disco-title"></h1>
+                    <p class="disco-artist"></p>
+                    <p class="disco-type"></p>
 
-            <div class="preview">
-                <div>
-                    <div class="titles">
-                        <h1>Musicas</h1>
-                        <a href="catalogo.html" class="text-btn size">
-                            Ver Catalogo
-                        </a>
-                    </div>
-                    <div class="grid-products" data-preview="true"></div>
-                    <div class="titles"">
-                        <h1>Vestuario</h1>
-                        <a href="catalogo.html" class="text-btn size">
-                            Ver Catalogo
-                        </a>
-                    </div>
-                    <div
-                        class="grid-products grid-merch"
-                        data-preview="true"
-                    ></div>
+                    <div class="line"></div>
+
+                    <p class="disco-price"></p>
+                    <p class="disco-stock"></p>
+                    <button class="buy-btn">Adicionar ao carrihno</button>
+                </div>
+                <div class="outline-section">
+                    <h1>TrackList</h1>
+                    <ul class="disco-tracklist"></ul>
                 </div>
             </div>
         </main>
@@ -149,18 +146,13 @@
                     Records
                 </a>
             </div>
-            <div>
-                © 2025 — Todos os direitos reservados
-            </div>
+            <div>© 2025 — Todos os direitos reservados</div>
             <div>
                 <a href="">Sobre</a>
                 <a href="">Contatos</a>
                 <a href="">Pedidos</a>
             </div>
         </footer>
-        <script
-            type="module"
-            src="./assets/javascript/prdcts-render.js"
-        ></script>
+        <script type="module" src="./assets/javascript/prdct-page.js"></script>
     </body>
 </html>
