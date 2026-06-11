@@ -95,7 +95,7 @@ export const products = [
       "B6 Look Into The Eyes of The Mask",
       "B7 Deep Into The Woods Remix",
     ],
-    img: "/assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/childrenofthecornMain600x.png",
   },
   {
     id: 4,
@@ -161,7 +161,7 @@ export const products = [
       "B6 Look Into The Eyes of The Mask",
       "B7 Deep Into The Woods Remix",
     ],
-    img: "/assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/childrenofthecornMain600x.png",
   },
   {
     id: 6,
@@ -194,7 +194,7 @@ export const products = [
       "B6 Look Into The Eyes of The Mask",
       "B7 Deep Into The Woods Remix",
     ],
-    img: "/assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/childrenofthecornMain600x.png",
   },
   {
     id: 7,
@@ -227,7 +227,7 @@ export const products = [
       "B6 Look Into The Eyes of The Mask",
       "B7 Deep Into The Woods Remix",
     ],
-    img: "/assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/childrenofthecornMain600x.png",
   },
   {
     id: 8,
@@ -260,7 +260,7 @@ export const products = [
       "B6 Look Into The Eyes of The Mask",
       "B7 Deep Into The Woods Remix",
     ],
-    img: "/assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/childrenofthecornMain600x.png",
   },
   {
     id: 9,
@@ -293,7 +293,7 @@ export const products = [
       "B6 Look Into The Eyes of The Mask",
       "B7 Deep Into The Woods Remix",
     ],
-    img: "/assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/childrenofthecornMain600x.png",
   },
   {
     id: 10,
@@ -301,7 +301,7 @@ export const products = [
     artist: "Children of The Corn",
     price: 359.99,
     type: "Vinil LP (Colored)",
-    img: "/assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/childrenofthecornMain600x.png",
   },
   {
     id: 11,
@@ -334,7 +334,7 @@ export const products = [
       "B6 Look Into The Eyes of The Mask",
       "B7 Deep Into The Woods Remix",
     ],
-    img: "/assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/childrenofthecornMain600x.png",
   },
   {
     id: 12,
@@ -367,7 +367,7 @@ export const products = [
       "B6 Look Into The Eyes of The Mask",
       "B7 Deep Into The Woods Remix",
     ],
-    img: "/assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/childrenofthecornMain600x.png",
   },
   {
     id: 13,
@@ -400,7 +400,7 @@ export const products = [
       "B6 Look Into The Eyes of The Mask",
       "B7 Deep Into The Woods Remix",
     ],
-    img: "/assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/childrenofthecornMain600x.png",
   },
   {
     id: 14,
@@ -433,7 +433,7 @@ export const products = [
       "B6 Look Into The Eyes of The Mask",
       "B7 Deep Into The Woods Remix",
     ],
-    img: "/assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/childrenofthecornMain600x.png",
   },
   {
     id: 15,
@@ -466,7 +466,7 @@ export const products = [
       "B6 Look Into The Eyes of The Mask",
       "B7 Deep Into The Woods Remix",
     ],
-    img: "/assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/childrenofthecornMain600x.png",
   },
   {
     id: 16,
@@ -499,7 +499,7 @@ export const products = [
       "B6 Look Into The Eyes of The Mask",
       "B7 Deep Into The Woods Remix",
     ],
-    img: "/assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/childrenofthecornMain600x.png",
   },
   {
     id: 17,
@@ -532,7 +532,7 @@ export const products = [
       "B6 Look Into The Eyes of The Mask",
       "B7 Deep Into The Woods Remix",
     ],
-    img: "/assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/childrenofthecornMain600x.png",
   },
   {
     id: 18,
@@ -565,7 +565,7 @@ export const products = [
       "B6 Look Into The Eyes of The Mask",
       "B7 Deep Into The Woods Remix",
     ],
-    img: "/assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/childrenofthecornMain600x.png",
   },
   {
     id: 19,
@@ -598,7 +598,7 @@ export const products = [
       "B6 Look Into The Eyes of The Mask",
       "B7 Deep Into The Woods Remix",
     ],
-    img: "/assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/childrenofthecornMain600x.png",
   },
   {
     id: 20,
@@ -631,6 +631,6 @@ export const products = [
       "B6 Look Into The Eyes of The Mask",
       "B7 Deep Into The Woods Remix",
     ],
-    img: "/assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/childrenofthecornMain600x.png",
   },
 ];
