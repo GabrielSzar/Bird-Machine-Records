@@ -30,7 +30,7 @@ export const products = [
       "B6 Look Into The Eyes of The Mask",
       "B7 Deep Into The Woods Remix",
     ],
-    img: "/assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/childrenofthecornMain600x.png",
   },
   {
     id: 2,
@@ -62,7 +62,7 @@ export const products = [
       "D2 DJ Paul – Bustaz Betta Make Way (Bonus Track)",
       "D3 DJ Paul – Talk Yo Ass Off (Remix) (Bonus Track)",
     ],
-    img: "/assets/img/djpaulLP600x.png",
+    img: "assets/img/djpaulLP600x.png",
   },
   {
     id: 3,
@@ -128,7 +128,7 @@ export const products = [
       "B6 Look Into The Eyes of The Mask",
       "B7 Deep Into The Woods Remix",
     ],
-    img: "/assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/childrenofthecornMain600x.png",
   },
   {
     id: 5,
