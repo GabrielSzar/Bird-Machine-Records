@@ -9,12 +9,19 @@ if (grid) {
   const list = isHome ? products.slice(0, 5) : products;
 
   list.forEach((product) => {
+    const tamanho =
+      product.title.length <= 15
+        ? "big-font"
+        : product.title.length <= 25
+          ? "med-font"
+          : "small-font";
+
     grid.innerHTML += `
     <div class="card-product">
       <a href="produto.html?id=${product.id}">
         <img class="album-img" src="${product.img}" alt="${product.title}" />
         <div class="car-product-info">
-          <h1>${product.title}</h1>
+          <h1 class = "${tamanho}">${product.title}</h1>
           <p>${product.artist}</p>
           <div>
             <p class="type">${product.type}</p>
@@ -33,7 +40,7 @@ if (merchGrid) {
   list.forEach((merch) => {
     merchGrid.innerHTML += `
     <div class="card-product">
-      <a href="produto.html?id=${merch.id}">
+      <a href="merch.html?id=${merch.id}">
         <img class="album-img" src="${merch.img}" alt="${merch.title}" />
         <div class="car-product-info">
           <h1>${merch.title}</h1>

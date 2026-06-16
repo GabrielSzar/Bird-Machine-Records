@@ -211,7 +211,7 @@ form {
 }
 .grid-products {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* 5 colunas iguais */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 1rem;
     padding: 2rem;
 }
@@ -222,3 +222,4 @@ footer {
     padding: 1.5rem;
     background: var(--preto);
 }
+

@@ -8,7 +8,7 @@ main {
     padding: 2rem;
     border: 1px solid var(--cinzacl);
     border-radius: 3px;
-    width: 632px;
+    width: 664px;
     margin: 2rem 0px;
     h1 {
         padding: 0.8rem;
@@ -27,6 +27,14 @@ main {
     color: var(--tercearia);
     padding: 0.6rem 0px;
 }
+.disco-tracklist {
+    li {
+        border-bottom: 1px solid var(--cinzacl);
+        padding: 0.8rem;
+        list-style: none;
+        color: var(--segundaria);
+    }
+}
 .buy-btn {
     background: var(--primaria);
     border: 1px solid var(--cinzacl);
@@ -34,4 +42,15 @@ main {
     color: var(--preto);
     width: 80%;
     height: 50px;
+}
+.header {
+    padding-top: 50px;
+    padding-left: 20%;
+    width: 100%;
+    height: 32px;
+    a {
+        color: var(--primaria);
+        border-bottom: 1px solid var(--cinzacl);
+        margin: 6px;
+    }
 }

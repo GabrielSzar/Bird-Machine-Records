@@ -5,7 +5,9 @@ const id = Number(params.get("id"));
 const product = products.find((p) => p.id === id);
 
 if (product) {
-  document.querySelector(".disco-title").textContent = product.title;
+  document.querySelectorAll(".disco-title").forEach((el) => {
+    el.textContent = product.title;
+  });
   document.querySelector(".disco-artist").textContent = product.artist;
   document.querySelector(".disco-price").textContent =
     `Price: R$ ${product.price.toFixed(2)}`;

@@ -34,7 +34,7 @@ export const products = [
   },
   {
     id: 2,
-    title: "Volume 16- The Original Masters",
+    title: "Volume 16 - The Original Masters",
     artist: "DJ Paul",
     price: 327.0,
     type: "Vinil 2xLP (Colored)",
