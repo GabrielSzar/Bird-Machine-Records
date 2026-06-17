@@ -222,4 +222,14 @@ footer {
     padding: 1.5rem;
     background: var(--preto);
 }
-
+.header {
+    padding-top: 50px;
+    padding-left: 20%;
+    width: 100%;
+    height: 32px;
+    a {
+        color: var(--primaria);
+        border-bottom: 1px solid var(--cinzacl);
+        margin: 6px;
+    }
+}
