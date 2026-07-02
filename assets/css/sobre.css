@@ -1,0 +1,40 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    border-bottom: 1px solid var(--cinzacl);
+    div:first-child {
+        max-width: 500px;
+    }
+}
+
+.img-hero {
+    background: url(../img/foto-paia.jpeg);
+    height: 440px;
+    width: 740px;
+}
+.members {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(400px, 1fr));
+    padding: 3rem;
+    width: 1500px;
+}
+.member {
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.member-img {
+    background: url(../img/pessoa-paia.jpg);
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+}

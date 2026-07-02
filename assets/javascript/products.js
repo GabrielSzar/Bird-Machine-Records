@@ -1,36 +1,32 @@
 export const products = [
   {
     id: 1,
-    title: "The Single",
-    artist: "Children of The Corn",
-    price: 359.99,
+    title: "Gimisum Family",
+    artist: "Gimisum Family",
+    price: 241.51,
     type: "Vinil LP (Colored)",
-    description: `Originally recorded while still in high school, Lil Grimm’s Children of the Corn emerged from the heart of Memphis’ underground rap scene in October 1995. Released first on cassette in a tiny run that circulated hand-to-hand, the record became a word-of-mouth phenomenon—passed around schoolyards, dubbed on boom boxes, and traded in parking lots long before “going viral” had a name. In 2020, a limited vinyl pressing emerged, but the album had never received a proper, fully remastered edition—until now.
+    description: `This album is part of Now-Again’s ongoing reissue series spotlighting Memphis’s lo-fi, cassette-driven rap scene—one that helped shape the sound of Southern hip hop for decades to come. These long-lost records were rarely heard outside the region, but their influence echoes in today’s rap landscape. Until now, most have only been available via bootlegs or rare tapes.
 
-    For the first time ever, Gate Girl Records proudly presents the 30th Anniversary Remastered Edition of this underground Memphis rap classic. This release restores the raw power of the original while elevating its eerie, lo-fi textures into something sharper and more immersive.
+    Each LP includes a 12-page oversized booklet with extensive liner notes by Torii MacAdams, telling the story of Memphis rap from the city’s roots to the DIY shops that sold these underground gems over the counter.
 
-    Influenced by the rising “horrorcore” sound pioneered by Memphis legends DJ Paul and DJ Squeeky, Grimm and his crew put their own sinister twist on the formula: haunting samples, ghostly synth lines, and a suffocating atmosphere that set them apart in the city’s fertile underground. The Children of the Corn project blended Grimm’s grim storytelling with the paranoia and menace of early-90s Memphis street culture—earning it cult status among tape collectors and rap historians alike.
+    As Skinny Pimp puts it:
+    “This keeps the legacy rolling. Your name, your reputation—you guard it with everything. And this is keeping it out, and alive, in the world… Forever.”
 
-    Key tracks like “Deep Into the Woods” and “Devil Sh*t” showcase Grimm’s ability to paint vivid, nightmarish soundscapes, striking a balance between street authenticity and horror-fueled surrealism. These songs, and the record as a whole, would go on to influence generations of DIY rappers who built their identities on limited cassette runs, dark beats, and relentless hustle.
-
-    With its 30th Anniversary Remastered Edition, Children of the Corn is no longer just a local legend—it stands as a cornerstone of Memphis rap history, preserved for longtime fans and new listeners alike.`,
+    First time on vinyl. Essential for Memphis rap heads and hip hop archivists alike.`,
     tracklist: [
-      "A1 Intro",
-      "A2 Deep Into The Woods",
-      "A3 Wicked Ways",
-      "A4 Don’t Forget To Grab Your Mask",
-      "A5 Interlude",
-      "A6 Lay It Down",
-      "A7 Just Want To Know",
-      "B1 Glock Sounds",
-      "B2 Suffer",
-      "B3 Full of Phonk",
-      "B4 Cold Hearted",
-      "B5 Devil SHH",
-      "B6 Look Into The Eyes of The Mask",
-      "B7 Deep Into The Woods Remix",
+      "A1 Glock Tight",
+      "A2 Silent Night",
+      "A3 Caught Them Tricks Slippin’",
+      "A4 Skinny But Dangerous (Remix)",
+      "A5 Sweet Stangin’",
+      "A6 Bounce Thru The Hood",
+      "B1 Tha Park",
+      "B2 Act A Damn Fool (Drinking Bumpy Face)",
+      "B3 Make A Nigga Like Me Run Into Yo Ass",
+      "B4 Undercover Police",
+      "B5 Pimpin’ And Robbin’",
     ],
-    img: "assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/Gimisum_Family_600x.png",
   },
   {
     id: 2,
@@ -66,539 +62,477 @@ export const products = [
   },
   {
     id: 3,
-    title: "The Single",
-    artist: "Children of The Corn",
-    price: 359.99,
-    type: "Vinil LP (Colored)",
-    description: `Originally recorded while still in high school, Lil Grimm’s Children of the Corn emerged from the heart of Memphis’ underground rap scene in October 1995. Released first on cassette in a tiny run that circulated hand-to-hand, the record became a word-of-mouth phenomenon—passed around schoolyards, dubbed on boom boxes, and traded in parking lots long before “going viral” had a name. In 2020, a limited vinyl pressing emerged, but the album had never received a proper, fully remastered edition—until now.
-
-    For the first time ever, Gate Girl Records proudly presents the 30th Anniversary Remastered Edition of this underground Memphis rap classic. This release restores the raw power of the original while elevating its eerie, lo-fi textures into something sharper and more immersive.
-
-    Influenced by the rising “horrorcore” sound pioneered by Memphis legends DJ Paul and DJ Squeeky, Grimm and his crew put their own sinister twist on the formula: haunting samples, ghostly synth lines, and a suffocating atmosphere that set them apart in the city’s fertile underground. The Children of the Corn project blended Grimm’s grim storytelling with the paranoia and menace of early-90s Memphis street culture—earning it cult status among tape collectors and rap historians alike.
-
-    Key tracks like “Deep Into the Woods” and “Devil Sh*t” showcase Grimm’s ability to paint vivid, nightmarish soundscapes, striking a balance between street authenticity and horror-fueled surrealism. These songs, and the record as a whole, would go on to influence generations of DIY rappers who built their identities on limited cassette runs, dark beats, and relentless hustle.
-
-    With its 30th Anniversary Remastered Edition, Children of the Corn is no longer just a local legend—it stands as a cornerstone of Memphis rap history, preserved for longtime fans and new listeners alike.`,
+    title: "Most Known Unknown",
+    artist: "Three 6 Mafia",
+    price: 389.6,
+    type: "Vinil 2xLP (Colored)",
+    description: ` Originally released in 2005, the Most Known Unknown would become Three 6 Mafia's best selling album with the lead single Stay Fly featuring the Memphis crew of DJ Paul, Juicy J and Crunchy Black alongside Memphis legends Eightball and MJG and Nashville's Young Buck.  The album also featured other southern rappers outside of the Memphis scene to include Paul Wall, Mike Jones, Slim Thug, & Lil Flip representin Texas and Trick Daddy from Miami on the Sty Fly Remix. Our limited numbered reissue on black and sliver streak vinyl sold out last summer and has been repressed on silver wax. `,
     tracklist: [
-      "A1 Intro",
-      "A2 Deep Into The Woods",
-      "A3 Wicked Ways",
-      "A4 Don’t Forget To Grab Your Mask",
-      "A5 Interlude",
-      "A6 Lay It Down",
-      "A7 Just Want To Know",
-      "B1 Glock Sounds",
-      "B2 Suffer",
-      "B3 Full of Phonk",
-      "B4 Cold Hearted",
-      "B5 Devil SHH",
-      "B6 Look Into The Eyes of The Mask",
-      "B7 Deep Into The Woods Remix",
+      "A1 Most Known Unknown Hits",
+      "A2 Stay Fly feat Eightball & MJG and Young Buck",
+      "A3 Roll WIth It",
+      "A4 Don't Violate feat Frayser Boy",
+      "A5 Swervin' feat Mike Jones and Paul Wall",
+      "A6 Knock Tha Black Off Yo Ass",
+      "B1 Poppin' My Collar",
+      "B2 Hard Hittaz feat Boogiemane",
+      "B3 Side 2 Side",
+      "B4 Half On A Sack",
+      "B5 Skit",
+      "B6 When I Pull Up At The Club feat Paul Wall",
+      "C1 Pussy Got Ya Hooked feat Remy Martin",
+      "C2 Don't Cha Get Mad feat Lil' Flip",
+      "C3 Body Parts 3 feat Boogiemane, Frayser Boy, Grandaddy Souf, Lil' Wyte",
+      "C4 Stay Fly (Still Fly Remix) feat Slim Thug & Trick Daddy",
+      "C5 Outro",
+      "D1 Got It 4 Sale (Bonus Track)",
+      "D2 Let's Plan A Robbery (Bonus Track)",
+      "D3 Dancin' On A Pole (Bonus Track)",
+      "D4 Ain't Got Time For Gamez (Bonus Track)",
     ],
-    img: "assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/MostKnownUnknown600x.png",
   },
   {
     id: 4,
-    title: "The Single",
-    artist: "Children of The Corn",
-    price: 359.99,
+    title: "Murderers & Robbers",
+    artist: "Project Pat",
+    price: 289.99,
     type: "Vinil LP (Colored)",
-    description: `Originally recorded while still in high school, Lil Grimm’s Children of the Corn emerged from the heart of Memphis’ underground rap scene in October 1995. Released first on cassette in a tiny run that circulated hand-to-hand, the record became a word-of-mouth phenomenon—passed around schoolyards, dubbed on boom boxes, and traded in parking lots long before “going viral” had a name. In 2020, a limited vinyl pressing emerged, but the album had never received a proper, fully remastered edition—until now.
-
-    For the first time ever, Gate Girl Records proudly presents the 30th Anniversary Remastered Edition of this underground Memphis rap classic. This release restores the raw power of the original while elevating its eerie, lo-fi textures into something sharper and more immersive.
-
-    Influenced by the rising “horrorcore” sound pioneered by Memphis legends DJ Paul and DJ Squeeky, Grimm and his crew put their own sinister twist on the formula: haunting samples, ghostly synth lines, and a suffocating atmosphere that set them apart in the city’s fertile underground. The Children of the Corn project blended Grimm’s grim storytelling with the paranoia and menace of early-90s Memphis street culture—earning it cult status among tape collectors and rap historians alike.
-
-    Key tracks like “Deep Into the Woods” and “Devil Sh*t” showcase Grimm’s ability to paint vivid, nightmarish soundscapes, striking a balance between street authenticity and horror-fueled surrealism. These songs, and the record as a whole, would go on to influence generations of DIY rappers who built their identities on limited cassette runs, dark beats, and relentless hustle.
-
-    With its 30th Anniversary Remastered Edition, Children of the Corn is no longer just a local legend—it stands as a cornerstone of Memphis rap history, preserved for longtime fans and new listeners alike.`,
+    description: `Murderers & Robbers is the first album by Project Pat, originally released on July 25, 2000 and labeled as an "underground album" featuring members of Three 6 Mafia.  A compilation of mix-tape material from the early 90s before a prison sentence interrupted his career.`,
     tracklist: [
-      "A1 Intro",
-      "A2 Deep Into The Woods",
-      "A3 Wicked Ways",
-      "A4 Don’t Forget To Grab Your Mask",
-      "A5 Interlude",
-      "A6 Lay It Down",
-      "A7 Just Want To Know",
-      "B1 Glock Sounds",
-      "B2 Suffer",
-      "B3 Full of Phonk",
-      "B4 Cold Hearted",
-      "B5 Devil SHH",
-      "B6 Look Into The Eyes of The Mask",
-      "B7 Deep Into The Woods Remix",
+      "A1 Pimptro",
+      "A2 North, North",
+      "A3 I Get Da Chewin",
+      "A4 Ridin On Chrome feat T-Rock",
+      "A5 This Ain't No Game feat S.O.G.",
+      "A6 Bitch Smackin Killa feat Juicy J",
+      "B1 Murderers & Robbers feat DJ Paul and Lord Infamous",
+      "B2 Red Rum",
+      "B3 Fuck A Bitch",
+      "B4 Easily Executed",
+      "B5 11 Puttin Hoez On Da House feat Lord Infamous, DJ Paul, Lil Glock, S.O.G.",
+      "B6 12 Outro",
     ],
-    img: "assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/murderers_Robbers_600x.png",
   },
   {
     id: 5,
-    title: "The Single",
-    artist: "Children of The Corn",
-    price: 359.99,
+    title: "Breakin Da Law",
+    artist: "Gangsta Blac",
+    price: 312.48,
     type: "Vinil LP (Colored)",
-    description: `Originally recorded while still in high school, Lil Grimm’s Children of the Corn emerged from the heart of Memphis’ underground rap scene in October 1995. Released first on cassette in a tiny run that circulated hand-to-hand, the record became a word-of-mouth phenomenon—passed around schoolyards, dubbed on boom boxes, and traded in parking lots long before “going viral” had a name. In 2020, a limited vinyl pressing emerged, but the album had never received a proper, fully remastered edition—until now.
+    description: `Gangsta Blac's debut album, produced by DJ Paul of Three 6 Mafia, was only released on cassette in 1994. Now available for the first time on vinyl.
 
-    For the first time ever, Gate Girl Records proudly presents the 30th Anniversary Remastered Edition of this underground Memphis rap classic. This release restores the raw power of the original while elevating its eerie, lo-fi textures into something sharper and more immersive.
+    This is part of Now Again Records multiple LP series on the History of Memphis Rap, which attempts to capture Memphis and its underground rap scene as it began to produce some of the most distinctive music of the ’90s.
 
-    Influenced by the rising “horrorcore” sound pioneered by Memphis legends DJ Paul and DJ Squeeky, Grimm and his crew put their own sinister twist on the formula: haunting samples, ghostly synth lines, and a suffocating atmosphere that set them apart in the city’s fertile underground. The Children of the Corn project blended Grimm’s grim storytelling with the paranoia and menace of early-90s Memphis street culture—earning it cult status among tape collectors and rap historians alike.
+    This was a unique hip-hop strain – visceral and often vicious. It was a local, low-fi, cassette-tape based movement – yet it went on to change the course of rap music.
 
-    Key tracks like “Deep Into the Woods” and “Devil Sh*t” showcase Grimm’s ability to paint vivid, nightmarish soundscapes, striking a balance between street authenticity and horror-fueled surrealism. These songs, and the record as a whole, would go on to influence generations of DIY rappers who built their identities on limited cassette runs, dark beats, and relentless hustle.
+    These albums have never been pressed on vinyl – until now. From Skinny Pimp and Carmike to Gangsta Blac and Shawty Pimp, these albums have been relegated to the proverbial bins of history and bootlegged, with unofficial copies still fetching top dollar on the secondary market. These albums were all licensed directly from their original creators, and come on limited edition colored vinyl with artist-approved imagery for their first LP iterations.
 
-    With its 30th Anniversary Remastered Edition, Children of the Corn is no longer just a local legend—it stands as a cornerstone of Memphis rap history, preserved for longtime fans and new listeners alike.`,
+    You can read the story of the Memphis Rap scene in a 12-page, oversized booklet with notes by Torii MacAdams. It captures the story of Memphis rap starting with the city’s founding and ending with an auto supply shop that sold these albums over the counter, with all points in between.`,
     tracklist: [
       "A1 Intro",
-      "A2 Deep Into The Woods",
-      "A3 Wicked Ways",
-      "A4 Don’t Forget To Grab Your Mask",
-      "A5 Interlude",
-      "A6 Lay It Down",
-      "A7 Just Want To Know",
-      "B1 Glock Sounds",
-      "B2 Suffer",
-      "B3 Full of Phonk",
-      "B4 Cold Hearted",
-      "B5 Devil SHH",
-      "B6 Look Into The Eyes of The Mask",
-      "B7 Deep Into The Woods Remix",
+      "A2 Chronic City Funkytown",
+      "A3 Tire Shop Featuring – DJ Paul",
+      "A4 I'm Gangsta Blac Featuring – V-Dog",
+      "A5 Insane",
+      "A6 Shout Outs",
+      "B1 Wreckless Clan",
+      "B2 Up & Coming",
+      "B3 Victim Of This Shit Featuring – Lil' Fly",
+      "B4 Killaz From South Parkway (Remix)",
+      "B5 Outro",
     ],
-    img: "assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/GangstaBlac_600x.png",
   },
   {
     id: 6,
-    title: "The Single",
-    artist: "Children of The Corn",
-    price: 359.99,
-    type: "Vinil LP (Colored)",
-    description: `Originally recorded while still in high school, Lil Grimm’s Children of the Corn emerged from the heart of Memphis’ underground rap scene in October 1995. Released first on cassette in a tiny run that circulated hand-to-hand, the record became a word-of-mouth phenomenon—passed around schoolyards, dubbed on boom boxes, and traded in parking lots long before “going viral” had a name. In 2020, a limited vinyl pressing emerged, but the album had never received a proper, fully remastered edition—until now.
-
-    For the first time ever, Gate Girl Records proudly presents the 30th Anniversary Remastered Edition of this underground Memphis rap classic. This release restores the raw power of the original while elevating its eerie, lo-fi textures into something sharper and more immersive.
-
-    Influenced by the rising “horrorcore” sound pioneered by Memphis legends DJ Paul and DJ Squeeky, Grimm and his crew put their own sinister twist on the formula: haunting samples, ghostly synth lines, and a suffocating atmosphere that set them apart in the city’s fertile underground. The Children of the Corn project blended Grimm’s grim storytelling with the paranoia and menace of early-90s Memphis street culture—earning it cult status among tape collectors and rap historians alike.
-
-    Key tracks like “Deep Into the Woods” and “Devil Sh*t” showcase Grimm’s ability to paint vivid, nightmarish soundscapes, striking a balance between street authenticity and horror-fueled surrealism. These songs, and the record as a whole, would go on to influence generations of DIY rappers who built their identities on limited cassette runs, dark beats, and relentless hustle.
-
-    With its 30th Anniversary Remastered Edition, Children of the Corn is no longer just a local legend—it stands as a cornerstone of Memphis rap history, preserved for longtime fans and new listeners alike.`,
+    title: "Good Kid, M.A.A.D. City",
+    artist: "Kendrick Lamar",
+    price: 159.99,
+    type: "Cassette",
+    description: `Kendrick Lamar's major label debut from 2012 is one of the best selling Hip-Hop albums of the latter 2000s and regarded as one of the best Hip-Hop albums to come out in the last 20 years. `,
     tracklist: [
-      "A1 Intro",
-      "A2 Deep Into The Woods",
-      "A3 Wicked Ways",
-      "A4 Don’t Forget To Grab Your Mask",
-      "A5 Interlude",
-      "A6 Lay It Down",
-      "A7 Just Want To Know",
-      "B1 Glock Sounds",
-      "B2 Suffer",
-      "B3 Full of Phonk",
-      "B4 Cold Hearted",
-      "B5 Devil SHH",
-      "B6 Look Into The Eyes of The Mask",
-      "B7 Deep Into The Woods Remix",
+      "A1 Sherane A.k.a Master Splinter’s Daughter",
+      "A2 Bitch, Don’t Kill My Vibe",
+      "A3 Backseat Freestyle",
+      "A4 The Art Of Peer Pressure",
+      "A5 Money Trees",
+      "A6 Poetic Justice",
+      "B1 Good Kid",
+      "B2 M.a.a.d City",
+      "B3 Swimming Pools (Drank) [Extended Version]",
+      "B4 Sing About Me, I'm Dying Of Thirst",
+      "B5 Real",
+      "B6 Compton",
     ],
-    img: "assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/goodkidtape_600x.png",
   },
   {
     id: 7,
-    title: "The Single",
-    artist: "Children of The Corn",
-    price: 359.99,
-    type: "Vinil LP (Colored)",
-    description: `Originally recorded while still in high school, Lil Grimm’s Children of the Corn emerged from the heart of Memphis’ underground rap scene in October 1995. Released first on cassette in a tiny run that circulated hand-to-hand, the record became a word-of-mouth phenomenon—passed around schoolyards, dubbed on boom boxes, and traded in parking lots long before “going viral” had a name. In 2020, a limited vinyl pressing emerged, but the album had never received a proper, fully remastered edition—until now.
-
-    For the first time ever, Gate Girl Records proudly presents the 30th Anniversary Remastered Edition of this underground Memphis rap classic. This release restores the raw power of the original while elevating its eerie, lo-fi textures into something sharper and more immersive.
-
-    Influenced by the rising “horrorcore” sound pioneered by Memphis legends DJ Paul and DJ Squeeky, Grimm and his crew put their own sinister twist on the formula: haunting samples, ghostly synth lines, and a suffocating atmosphere that set them apart in the city’s fertile underground. The Children of the Corn project blended Grimm’s grim storytelling with the paranoia and menace of early-90s Memphis street culture—earning it cult status among tape collectors and rap historians alike.
-
-    Key tracks like “Deep Into the Woods” and “Devil Sh*t” showcase Grimm’s ability to paint vivid, nightmarish soundscapes, striking a balance between street authenticity and horror-fueled surrealism. These songs, and the record as a whole, would go on to influence generations of DIY rappers who built their identities on limited cassette runs, dark beats, and relentless hustle.
-
-    With its 30th Anniversary Remastered Edition, Children of the Corn is no longer just a local legend—it stands as a cornerstone of Memphis rap history, preserved for longtime fans and new listeners alike.`,
+    title: "Late Registration",
+    artist: "Kanye West",
+    price: 479.8,
+    type: "Vinil 2xLP (Colored)",
+    description: `Kanye West's follow-up to College Dropout is a no skips album that won the Grammy for Best Rap Album in 2006. `,
     tracklist: [
-      "A1 Intro",
-      "A2 Deep Into The Woods",
-      "A3 Wicked Ways",
-      "A4 Don’t Forget To Grab Your Mask",
-      "A5 Interlude",
-      "A6 Lay It Down",
-      "A7 Just Want To Know",
-      "B1 Glock Sounds",
-      "B2 Suffer",
-      "B3 Full of Phonk",
-      "B4 Cold Hearted",
-      "B5 Devil SHH",
-      "B6 Look Into The Eyes of The Mask",
-      "B7 Deep Into The Woods Remix",
+      "A1 Wake Up Mr. West",
+      "A2 Heard 'Em Say (feat. Adam Levine)",
+      "A3 Touch The Sky (feat. Lupe Fiasco)",
+      "A4 Gold Digger (feat. Jamie Foxx)",
+      "A5 Skit #1",
+      "A6 Drive Slow (feat. GLC & Paul Wall)",
+      "B1 My Way Home (feat. Common)",
+      "B2 Crack Music (feat. The Game)",
+      "B3 Roses",
+      "B4 Bring Me Down (feat. Brandy)",
+      "C1 Addiction",
+      "C2 Skit #2",
+      "C3 Diamonds From Sierra Leone (Remix) (feat. Jay-Z)",
+      "C4 We Major (feat. Nas & Really Doe)",
+      "D1 Skit #4",
+      "D2 Hey Mama (feat. John Legend)",
+      "D3 Celebration (feat. John Legend)",
+      "D4 Skit #4",
+      "D5 Gone (feat. Cam'ron & Consequence)",
     ],
-    img: "assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/KANYE_LATERES600x.png",
   },
   {
     id: 8,
-    title: "The Single",
-    artist: "Children of The Corn",
-    price: 359.99,
+    title: "Da Hard Ov Frayser",
+    artist: "MC Money & Gangsta Gold",
+    price: 259.99,
     type: "Vinil LP (Colored)",
-    description: `Originally recorded while still in high school, Lil Grimm’s Children of the Corn emerged from the heart of Memphis’ underground rap scene in October 1995. Released first on cassette in a tiny run that circulated hand-to-hand, the record became a word-of-mouth phenomenon—passed around schoolyards, dubbed on boom boxes, and traded in parking lots long before “going viral” had a name. In 2020, a limited vinyl pressing emerged, but the album had never received a proper, fully remastered edition—until now.
+    description: `The 4th LP in Now Again's Memphis rap tapes reissued on vinyl is the only album released by MC Money & Gangsta Gold.  Hardcore Memphis gangsta funk produced by the legendary DJ Sound.
 
-    For the first time ever, Gate Girl Records proudly presents the 30th Anniversary Remastered Edition of this underground Memphis rap classic. This release restores the raw power of the original while elevating its eerie, lo-fi textures into something sharper and more immersive.
+    This is part of Now Again Records multiple LP series on the History of Memphis Rap, which attempts to capture Memphis and its underground rap scene as it began to produce some of the most distinctive music of the ’90s.
 
-    Influenced by the rising “horrorcore” sound pioneered by Memphis legends DJ Paul and DJ Squeeky, Grimm and his crew put their own sinister twist on the formula: haunting samples, ghostly synth lines, and a suffocating atmosphere that set them apart in the city’s fertile underground. The Children of the Corn project blended Grimm’s grim storytelling with the paranoia and menace of early-90s Memphis street culture—earning it cult status among tape collectors and rap historians alike.
+    This was a unique hip-hop strain – visceral and often vicious. It was a local, low-fi, cassette-tape based movement – yet it went on to change the course of rap music.
 
-    Key tracks like “Deep Into the Woods” and “Devil Sh*t” showcase Grimm’s ability to paint vivid, nightmarish soundscapes, striking a balance between street authenticity and horror-fueled surrealism. These songs, and the record as a whole, would go on to influence generations of DIY rappers who built their identities on limited cassette runs, dark beats, and relentless hustle.
+    These albums have never been pressed on vinyl – until now. From Skinny Pimp and Carmike to Gangsta Blac and Shawty Pimp, these albums have been relegated to the proverbial bins of history and bootlegged, with unofficial copies still fetching top dollar on the secondary market. These albums were all licensed directly from their original creators, and come on limited edition colored vinyl with artist-approved imagery for their first LP iterations.
 
-    With its 30th Anniversary Remastered Edition, Children of the Corn is no longer just a local legend—it stands as a cornerstone of Memphis rap history, preserved for longtime fans and new listeners alike.`,
+    You can read the story of the Memphis Rap scene in a 12-page, oversized booklet with notes by Torii MacAdams. It captures the story of Memphis rap starting with the city’s founding and ending with an auto supply shop that sold these albums over the counter, with all points in between.`,
     tracklist: [
       "A1 Intro",
-      "A2 Deep Into The Woods",
-      "A3 Wicked Ways",
-      "A4 Don’t Forget To Grab Your Mask",
-      "A5 Interlude",
-      "A6 Lay It Down",
-      "A7 Just Want To Know",
-      "B1 Glock Sounds",
-      "B2 Suffer",
-      "B3 Full of Phonk",
-      "B4 Cold Hearted",
-      "B5 Devil SHH",
-      "B6 Look Into The Eyes of The Mask",
-      "B7 Deep Into The Woods Remix",
+      "A2 Ridgecrest Anthem",
+      "A3 Down With The Click",
+      "A4 Glock-Tight Smoked-Out",
+      "A5 Ridgecrest Taking Over",
+      "A6 Interlude",
+      "B1 Dead In His Tracks",
+      "B2 I Just Need Yo Cheese",
+      "B3 Load The Ammo",
+      "B4 Shouts Out",
+      "B5 Bout Our Hogg Outro",
     ],
-    img: "assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/mcmoney_DaHard600x.png",
   },
   {
     id: 9,
-    title: "The Single",
-    artist: "Children of The Corn",
-    price: 359.99,
-    type: "Vinil LP (Colored)",
-    description: `Originally recorded while still in high school, Lil Grimm’s Children of the Corn emerged from the heart of Memphis’ underground rap scene in October 1995. Released first on cassette in a tiny run that circulated hand-to-hand, the record became a word-of-mouth phenomenon—passed around schoolyards, dubbed on boom boxes, and traded in parking lots long before “going viral” had a name. In 2020, a limited vinyl pressing emerged, but the album had never received a proper, fully remastered edition—until now.
-
-    For the first time ever, Gate Girl Records proudly presents the 30th Anniversary Remastered Edition of this underground Memphis rap classic. This release restores the raw power of the original while elevating its eerie, lo-fi textures into something sharper and more immersive.
-
-    Influenced by the rising “horrorcore” sound pioneered by Memphis legends DJ Paul and DJ Squeeky, Grimm and his crew put their own sinister twist on the formula: haunting samples, ghostly synth lines, and a suffocating atmosphere that set them apart in the city’s fertile underground. The Children of the Corn project blended Grimm’s grim storytelling with the paranoia and menace of early-90s Memphis street culture—earning it cult status among tape collectors and rap historians alike.
-
-    Key tracks like “Deep Into the Woods” and “Devil Sh*t” showcase Grimm’s ability to paint vivid, nightmarish soundscapes, striking a balance between street authenticity and horror-fueled surrealism. These songs, and the record as a whole, would go on to influence generations of DIY rappers who built their identities on limited cassette runs, dark beats, and relentless hustle.
-
-    With its 30th Anniversary Remastered Edition, Children of the Corn is no longer just a local legend—it stands as a cornerstone of Memphis rap history, preserved for longtime fans and new listeners alike.`,
+    title: "Underground Vol 1",
+    artist: "Triple Six Mafia",
+    price: 161.99,
+    type: "Cassette",
+    description: `Get On Down is proud to present a limited edition cassette reissue of Triple Six Mafia's Underground Vol 1 (1991-1994).  Underground Vol 1 originally released in 1999 on CD and cassette is a collection of songs taken from the early days of Three 6 Mafia's underground mixtapes by DJ Paul, Juicy J, and Lord Infamous.  The songs presented in the compilation laid the foundations for a new style of rap and the subgenre of Horrorcore. One of the holy grails of Three 6 Mafia tapes, Underground Vol 1 has been reissued in a red translucent cassette shell limited to 666 copies. `,
     tracklist: [
-      "A1 Intro",
-      "A2 Deep Into The Woods",
-      "A3 Wicked Ways",
-      "A4 Don’t Forget To Grab Your Mask",
-      "A5 Interlude",
-      "A6 Lay It Down",
-      "A7 Just Want To Know",
-      "B1 Glock Sounds",
-      "B2 Suffer",
-      "B3 Full of Phonk",
-      "B4 Cold Hearted",
-      "B5 Devil SHH",
-      "B6 Look Into The Eyes of The Mask",
-      "B7 Deep Into The Woods Remix",
+      "A1 Ridin'N Da Chevy",
+      "A2 Niggaz Ain't Barin Dat",
+      "A3 Chargin These Hoes",
+      "A4 Now I'm High, Really High",
+      "A5 Sucks On Dick",
+      "A6 Playa Hataz",
+      "A7 Paul, With Da 45",
+      "B1 Where Da Bud At",
+      "B2 Mask And Da Glock",
+      "B3 Don't Be Scared",
+      "B4 Time For Da Juice Mane",
+      "B5 Walk Up To Your House",
+      "B6 Yeah, They Done Fucked Up",
+      "B7 Talk Ya Ass Off",
+      "B8 Fuck All Dem Hoes",
     ],
-    img: "assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/Triplesix_Underground_600x.png",
   },
   {
     id: 10,
-    title: "The Single",
-    artist: "Children of The Corn",
-    price: 359.99,
-    type: "Vinil LP (Colored)",
-    img: "assets/img/childrenofthecornMain600x.png",
+    title: "The Slim Shady LP",
+    artist: "Eminem",
+    price: 559.99,
+    type: "Vinil 2xLP",
+    description: `Eminem's debut album produced by Dr. Dre `,
+    tracklist: [
+      "A1 Public Service Announcement",
+      "A2 My Name Is",
+      "A3 Guilty Conscience (feat. Dr. Dre)",
+      "A4 Brain Damage",
+      "A5 Paul",
+      "A6 If I Had",
+      "B1 '97 Bonnie & Clyde",
+      "B2 Bitch",
+      "B3 Role Model",
+      "B4 Lounge",
+      "B5 My Fault",
+      "C1 Ken Kaniff",
+      "C2 Cum On Everybody",
+      "C3 Rock Bottom",
+      "C4 Just Don't Give A Fuck",
+      "C5 Soap",
+      "D1 As The World Turns",
+      "D2 I'm Shady",
+      "D3 Bad Meats Evil (feat. Royce Da 5'9'')",
+      "D4 Still Don't Give A Fuck",
+    ],
+    img: "assets/img/Eminem-TheSlimShadyLP_600x.png",
   },
   {
     id: 11,
-    title: "The Single",
-    artist: "Children of The Corn",
-    price: 359.99,
-    type: "Vinil LP (Colored)",
-    description: `Originally recorded while still in high school, Lil Grimm’s Children of the Corn emerged from the heart of Memphis’ underground rap scene in October 1995. Released first on cassette in a tiny run that circulated hand-to-hand, the record became a word-of-mouth phenomenon—passed around schoolyards, dubbed on boom boxes, and traded in parking lots long before “going viral” had a name. In 2020, a limited vinyl pressing emerged, but the album had never received a proper, fully remastered edition—until now.
-
-    For the first time ever, Gate Girl Records proudly presents the 30th Anniversary Remastered Edition of this underground Memphis rap classic. This release restores the raw power of the original while elevating its eerie, lo-fi textures into something sharper and more immersive.
-
-    Influenced by the rising “horrorcore” sound pioneered by Memphis legends DJ Paul and DJ Squeeky, Grimm and his crew put their own sinister twist on the formula: haunting samples, ghostly synth lines, and a suffocating atmosphere that set them apart in the city’s fertile underground. The Children of the Corn project blended Grimm’s grim storytelling with the paranoia and menace of early-90s Memphis street culture—earning it cult status among tape collectors and rap historians alike.
-
-    Key tracks like “Deep Into the Woods” and “Devil Sh*t” showcase Grimm’s ability to paint vivid, nightmarish soundscapes, striking a balance between street authenticity and horror-fueled surrealism. These songs, and the record as a whole, would go on to influence generations of DIY rappers who built their identities on limited cassette runs, dark beats, and relentless hustle.
-
-    With its 30th Anniversary Remastered Edition, Children of the Corn is no longer just a local legend—it stands as a cornerstone of Memphis rap history, preserved for longtime fans and new listeners alike.`,
+    title: "Hustle Till I Die",
+    artist: "Juicy J",
+    price: 305.99,
+    type: "Vinil 2xLP (Colored)",
+    description: `The first official solo release from Three 6 Mafia's Juicy J.`,
     tracklist: [
-      "A1 Intro",
-      "A2 Deep Into The Woods",
-      "A3 Wicked Ways",
-      "A4 Don’t Forget To Grab Your Mask",
-      "A5 Interlude",
-      "A6 Lay It Down",
-      "A7 Just Want To Know",
-      "B1 Glock Sounds",
-      "B2 Suffer",
-      "B3 Full of Phonk",
-      "B4 Cold Hearted",
-      "B5 Devil SHH",
-      "B6 Look Into The Eyes of The Mask",
-      "B7 Deep Into The Woods Remix",
+      "A1 Hustle Till I Die",
+      "A2 30 Inches",
+      "A3 Flyayaya Weed",
+      "A4 North Memphis Like Me",
+      "A5 My Niggaz",
+      "B1 Ghost Dope",
+      "B2 Violent",
+      "B3 Let's Get High",
+      "B4 Ugh Ugh Ugh",
+      "C1 You Niggaz Pu**y",
+      "C2 Skit",
+      "C3 Real D Boyz",
+      "C4 Purple Kush",
+      "C5 Skit",
+      "C6 That's What A Pimp Does",
+      "D1 Sell A Lot Of Thangs",
+      "D2 You Can Get Murked",
+      "D3 Get Me Some Money",
+      "D4 F**k All Yall",
+      "D5 Pimp Outro",
     ],
-    img: "assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/juciyj2_hustle_480x.png",
   },
   {
     id: 12,
-    title: "The Single",
-    artist: "Children of The Corn",
-    price: 359.99,
-    type: "Vinil LP (Colored)",
-    description: `Originally recorded while still in high school, Lil Grimm’s Children of the Corn emerged from the heart of Memphis’ underground rap scene in October 1995. Released first on cassette in a tiny run that circulated hand-to-hand, the record became a word-of-mouth phenomenon—passed around schoolyards, dubbed on boom boxes, and traded in parking lots long before “going viral” had a name. In 2020, a limited vinyl pressing emerged, but the album had never received a proper, fully remastered edition—until now.
-
-    For the first time ever, Gate Girl Records proudly presents the 30th Anniversary Remastered Edition of this underground Memphis rap classic. This release restores the raw power of the original while elevating its eerie, lo-fi textures into something sharper and more immersive.
-
-    Influenced by the rising “horrorcore” sound pioneered by Memphis legends DJ Paul and DJ Squeeky, Grimm and his crew put their own sinister twist on the formula: haunting samples, ghostly synth lines, and a suffocating atmosphere that set them apart in the city’s fertile underground. The Children of the Corn project blended Grimm’s grim storytelling with the paranoia and menace of early-90s Memphis street culture—earning it cult status among tape collectors and rap historians alike.
-
-    Key tracks like “Deep Into the Woods” and “Devil Sh*t” showcase Grimm’s ability to paint vivid, nightmarish soundscapes, striking a balance between street authenticity and horror-fueled surrealism. These songs, and the record as a whole, would go on to influence generations of DIY rappers who built their identities on limited cassette runs, dark beats, and relentless hustle.
-
-    With its 30th Anniversary Remastered Edition, Children of the Corn is no longer just a local legend—it stands as a cornerstone of Memphis rap history, preserved for longtime fans and new listeners alike.`,
+    title: "Unfinished Business",
+    artist: "DJ Spanish Fly",
+    price: 350.98,
+    type: "Vinil 2xLP (Colored)",
+    description: `DJ Spanish Fly is known as the Godfather of Memphis Rap.  He started DJing in the 1980s and began introducing up-and-coming Memphis rappers in the late 80s into the 90s via his mixtapes.  He also produced original songs that became popular in the Memphis club scene. One of the more popular underground favorites was "Gangsta Walk" which spawned a style of dance known as jookin.  This collection of songs was originally recorded and distributed via cassette and then released on CD in 2001 and now available to spin on vinyl.`,
     tracklist: [
-      "A1 Intro",
-      "A2 Deep Into The Woods",
-      "A3 Wicked Ways",
-      "A4 Don’t Forget To Grab Your Mask",
-      "A5 Interlude",
-      "A6 Lay It Down",
-      "A7 Just Want To Know",
-      "B1 Glock Sounds",
-      "B2 Suffer",
-      "B3 Full of Phonk",
-      "B4 Cold Hearted",
-      "B5 Devil SHH",
-      "B6 Look Into The Eyes of The Mask",
-      "B7 Deep Into The Woods Remix",
+      "A1 Cement Shoes",
+      "A2 Alright (Radio)",
+      "A3 ABCDEFG",
+      "A4 Dope Game",
+      "B1 Gitin Ova",
+      "B2 I'm Da N!cc@",
+      "B3 Once Upon A Time",
+      "B4 Trigga Rap",
+      "C1 Pop Dat",
+      "C2 Rap Make Money",
+      "C3 Smokin Onion (Radio)",
+      "D1 Servin",
+      "D2 Uzi Tool",
+      "D3 Gangsta Walk (Radio)",
     ],
-    img: "assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/djspanishfly_unfinished_600x.png",
   },
   {
     id: 13,
-    title: "The Single",
-    artist: "Children of The Corn",
-    price: 359.99,
+    title: "Gotta Get My Pimp On Vol 2",
+    artist: "Shawty Pimp & MC Spade",
+    price: 279.89,
     type: "Vinil LP (Colored)",
-    description: `Originally recorded while still in high school, Lil Grimm’s Children of the Corn emerged from the heart of Memphis’ underground rap scene in October 1995. Released first on cassette in a tiny run that circulated hand-to-hand, the record became a word-of-mouth phenomenon—passed around schoolyards, dubbed on boom boxes, and traded in parking lots long before “going viral” had a name. In 2020, a limited vinyl pressing emerged, but the album had never received a proper, fully remastered edition—until now.
+    description: `The third LP in Now Again's Memphis Rap series is Gotta Get My Pimp On. Lo-fi pimp player raps recorded on a four-track cassette in Shawty Pimp's bedroom in 1994.
 
-    For the first time ever, Gate Girl Records proudly presents the 30th Anniversary Remastered Edition of this underground Memphis rap classic. This release restores the raw power of the original while elevating its eerie, lo-fi textures into something sharper and more immersive.
+    This is part of Now Again Records multiple LP series on the History of Memphis Rap, which attempts to capture Memphis and its underground rap scene as it began to produce some of the most distinctive music of the ’90s.
 
-    Influenced by the rising “horrorcore” sound pioneered by Memphis legends DJ Paul and DJ Squeeky, Grimm and his crew put their own sinister twist on the formula: haunting samples, ghostly synth lines, and a suffocating atmosphere that set them apart in the city’s fertile underground. The Children of the Corn project blended Grimm’s grim storytelling with the paranoia and menace of early-90s Memphis street culture—earning it cult status among tape collectors and rap historians alike.
+    This was a unique hip-hop strain – visceral and often vicious. It was a local, low-fi, cassette-tape based movement – yet it went on to change the course of rap music.
 
-    Key tracks like “Deep Into the Woods” and “Devil Sh*t” showcase Grimm’s ability to paint vivid, nightmarish soundscapes, striking a balance between street authenticity and horror-fueled surrealism. These songs, and the record as a whole, would go on to influence generations of DIY rappers who built their identities on limited cassette runs, dark beats, and relentless hustle.
+    These albums have never been pressed on vinyl – until now. From Skinny Pimp and Carmike to Gangsta Blac and Shawty Pimp, these albums have been relegated to the proverbial bins of history and bootlegged, with unofficial copies still fetching top dollar on the secondary market. These albums were all licensed directly from their original creators, and come on limited edition colored vinyl with artist-approved imagery for their first LP iterations.
 
-    With its 30th Anniversary Remastered Edition, Children of the Corn is no longer just a local legend—it stands as a cornerstone of Memphis rap history, preserved for longtime fans and new listeners alike.`,
+    You can read the story of the Memphis Rap scene in a 12-page, oversized booklet with notes by Torii MacAdams. It captures the story of Memphis rap starting with the city’s founding and ending with an auto supply shop that sold these albums over the counter, with all points in between.`,
     tracklist: [
-      "A1 Intro",
-      "A2 Deep Into The Woods",
-      "A3 Wicked Ways",
-      "A4 Don’t Forget To Grab Your Mask",
-      "A5 Interlude",
-      "A6 Lay It Down",
-      "A7 Just Want To Know",
-      "B1 Glock Sounds",
-      "B2 Suffer",
-      "B3 Full of Phonk",
-      "B4 Cold Hearted",
-      "B5 Devil SHH",
-      "B6 Look Into The Eyes of The Mask",
-      "B7 Deep Into The Woods Remix",
+      "A1 Vol 2 Intro",
+      "A2 Stackin What You Lackin",
+      "A3 Junkies Runnin Up",
+      "A4 Sweatin Up On A Bitch",
+      "A5 Fuck Tha Law Pt 2",
+      "B1 Caught Up In A Click",
+      "B2 Gotta Get My Pimp On",
+      "B3 Don’t Shawt My Dollas",
+      "B4 Vol 2 Outro",
     ],
-    img: "assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/shawtypimp_gottaget_600x.png",
   },
   {
     id: 14,
-    title: "The Single",
-    artist: "Children of The Corn",
-    price: 359.99,
-    type: "Vinil LP (Colored)",
-    description: `Originally recorded while still in high school, Lil Grimm’s Children of the Corn emerged from the heart of Memphis’ underground rap scene in October 1995. Released first on cassette in a tiny run that circulated hand-to-hand, the record became a word-of-mouth phenomenon—passed around schoolyards, dubbed on boom boxes, and traded in parking lots long before “going viral” had a name. In 2020, a limited vinyl pressing emerged, but the album had never received a proper, fully remastered edition—until now.
+    title: "My Will",
+    artist: "Teflon",
+    price: 130.98,
+    type: "Cassette",
+    description: `"Teflon, a rapper from Brownsville, Texas, who rose to fame in Brooklyn for his participation in M.O.P.'s second album “Firing Squad”, for which DJ Premier provided beats. His first album, My Will, released in 1997, is being reissued on CD/cassette for the first time after a long blank period.
 
-    For the first time ever, Gate Girl Records proudly presents the 30th Anniversary Remastered Edition of this underground Memphis rap classic. This release restores the raw power of the original while elevating its eerie, lo-fi textures into something sharper and more immersive.
-
-    Influenced by the rising “horrorcore” sound pioneered by Memphis legends DJ Paul and DJ Squeeky, Grimm and his crew put their own sinister twist on the formula: haunting samples, ghostly synth lines, and a suffocating atmosphere that set them apart in the city’s fertile underground. The Children of the Corn project blended Grimm’s grim storytelling with the paranoia and menace of early-90s Memphis street culture—earning it cult status among tape collectors and rap historians alike.
-
-    Key tracks like “Deep Into the Woods” and “Devil Sh*t” showcase Grimm’s ability to paint vivid, nightmarish soundscapes, striking a balance between street authenticity and horror-fueled surrealism. These songs, and the record as a whole, would go on to influence generations of DIY rappers who built their identities on limited cassette runs, dark beats, and relentless hustle.
-
-    With its 30th Anniversary Remastered Edition, Children of the Corn is no longer just a local legend—it stands as a cornerstone of Memphis rap history, preserved for longtime fans and new listeners alike.`,
+    Teflon first caught DJ Premier's attention when he performed with Jay-Z on a track from M.O.P.‘s First Family 4 Life, released in 1998, and his popularity exploded in 2000 when he joined Busta Rhymes and Remy Ma on M.O.P.’s Ante Up (Remix). My Will, which was released earlier, included ‘Get Mine’, which sampled Marvin Gaye's ‘In Our Lifetime’, and was fully backed by the M.O.P."`,
     tracklist: [
-      "A1 Intro",
-      "A2 Deep Into The Woods",
-      "A3 Wicked Ways",
-      "A4 Don’t Forget To Grab Your Mask",
-      "A5 Interlude",
-      "A6 Lay It Down",
-      "A7 Just Want To Know",
-      "B1 Glock Sounds",
-      "B2 Suffer",
-      "B3 Full of Phonk",
-      "B4 Cold Hearted",
-      "B5 Devil SHH",
-      "B6 Look Into The Eyes of The Mask",
-      "B7 Deep Into The Woods Remix",
+      "A1 Gotta Get Ova (feat. La shona Midleton)",
+      "A2 ShIt Happens",
+      "A3 My Will",
+      "A4 Get Mine (feat. La Shonda Middleton)",
+      "A5 Rawness (feat. M.O.P.)",
+      "A6 Rise Up",
+      "A7 Nigga Whut (feat. M.O.P.)",
+      "A8 My Planet (feat. M.O.P.)",
+      "A9 Game of Life",
+      "A1 Off The Hook",
     ],
-    img: "assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/teflontape_mywill_600x.png",
   },
   {
     id: 15,
-    title: "The Single",
-    artist: "Children of The Corn",
-    price: 359.99,
-    type: "Vinil LP (Colored)",
-    description: `Originally recorded while still in high school, Lil Grimm’s Children of the Corn emerged from the heart of Memphis’ underground rap scene in October 1995. Released first on cassette in a tiny run that circulated hand-to-hand, the record became a word-of-mouth phenomenon—passed around schoolyards, dubbed on boom boxes, and traded in parking lots long before “going viral” had a name. In 2020, a limited vinyl pressing emerged, but the album had never received a proper, fully remastered edition—until now.
-
-    For the first time ever, Gate Girl Records proudly presents the 30th Anniversary Remastered Edition of this underground Memphis rap classic. This release restores the raw power of the original while elevating its eerie, lo-fi textures into something sharper and more immersive.
-
-    Influenced by the rising “horrorcore” sound pioneered by Memphis legends DJ Paul and DJ Squeeky, Grimm and his crew put their own sinister twist on the formula: haunting samples, ghostly synth lines, and a suffocating atmosphere that set them apart in the city’s fertile underground. The Children of the Corn project blended Grimm’s grim storytelling with the paranoia and menace of early-90s Memphis street culture—earning it cult status among tape collectors and rap historians alike.
-
-    Key tracks like “Deep Into the Woods” and “Devil Sh*t” showcase Grimm’s ability to paint vivid, nightmarish soundscapes, striking a balance between street authenticity and horror-fueled surrealism. These songs, and the record as a whole, would go on to influence generations of DIY rappers who built their identities on limited cassette runs, dark beats, and relentless hustle.
-
-    With its 30th Anniversary Remastered Edition, Children of the Corn is no longer just a local legend—it stands as a cornerstone of Memphis rap history, preserved for longtime fans and new listeners alike.`,
+    title: "Madvillainy",
+    artist: "Madvillain",
+    price: 187.55,
+    type: "Cassette",
+    description: `MF DOOM and Madlib's 2004 classic collab on tape`,
     tracklist: [
-      "A1 Intro",
-      "A2 Deep Into The Woods",
-      "A3 Wicked Ways",
-      "A4 Don’t Forget To Grab Your Mask",
-      "A5 Interlude",
-      "A6 Lay It Down",
-      "A7 Just Want To Know",
-      "B1 Glock Sounds",
-      "B2 Suffer",
-      "B3 Full of Phonk",
-      "B4 Cold Hearted",
-      "B5 Devil SHH",
-      "B6 Look Into The Eyes of The Mask",
-      "B7 Deep Into The Woods Remix",
+      "A1 The Illest Villains",
+      "A2 Accordion",
+      "A3 Meat Grinder",
+      "A4 Bistro",
+      "A5 Raid",
+      "A6 America's Most Blunted",
+      "A7 Sickfit (Inst.)",
+      "A8 Rainbows",
+      "A9 Curls",
+      "A10 Do Not Fire! (Inst.)",
+      "A11 Money Folder",
+      "B1 Scene Two (Voice Skit)",
+      "B2 Shadows Of Tomorrow",
+      "B3 Operation Lifesaver AKA Mint Test",
+      "B4 Figaro",
+      "B5 Hardcore Hustle",
+      "B6 Strange Ways",
+      "B7 (Intro)",
+      "B8 Fancy Clown",
+      "B9 Eye",
+      "B10 Supervillain Theme (Inst.)",
+      "B11 All Caps",
+      "B12 Great Day",
+      "B13 Rhinestone Cowboy",
     ],
-    img: "assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/mfdoom_madvillainTape_600x.png",
   },
   {
     id: 16,
-    title: "The Single",
-    artist: "Children of The Corn",
-    price: 359.99,
-    type: "Vinil LP (Colored)",
-    description: `Originally recorded while still in high school, Lil Grimm’s Children of the Corn emerged from the heart of Memphis’ underground rap scene in October 1995. Released first on cassette in a tiny run that circulated hand-to-hand, the record became a word-of-mouth phenomenon—passed around schoolyards, dubbed on boom boxes, and traded in parking lots long before “going viral” had a name. In 2020, a limited vinyl pressing emerged, but the album had never received a proper, fully remastered edition—until now.
-
-    For the first time ever, Gate Girl Records proudly presents the 30th Anniversary Remastered Edition of this underground Memphis rap classic. This release restores the raw power of the original while elevating its eerie, lo-fi textures into something sharper and more immersive.
-
-    Influenced by the rising “horrorcore” sound pioneered by Memphis legends DJ Paul and DJ Squeeky, Grimm and his crew put their own sinister twist on the formula: haunting samples, ghostly synth lines, and a suffocating atmosphere that set them apart in the city’s fertile underground. The Children of the Corn project blended Grimm’s grim storytelling with the paranoia and menace of early-90s Memphis street culture—earning it cult status among tape collectors and rap historians alike.
-
-    Key tracks like “Deep Into the Woods” and “Devil Sh*t” showcase Grimm’s ability to paint vivid, nightmarish soundscapes, striking a balance between street authenticity and horror-fueled surrealism. These songs, and the record as a whole, would go on to influence generations of DIY rappers who built their identities on limited cassette runs, dark beats, and relentless hustle.
-
-    With its 30th Anniversary Remastered Edition, Children of the Corn is no longer just a local legend—it stands as a cornerstone of Memphis rap history, preserved for longtime fans and new listeners alike.`,
+    title: "Harlem’s Finest: Return Of The King",
+    artist: "Big L",
+    price: 136.98,
+    type: "Cassette",
+    description: `Hip Hop icon and one of the genre’s most distinctive voices, Big L, returns with Harlem’s Finest: Return Of The King – the long-awaited follow-up to his 2000 classic, The Big Picture. A HipHop Pioneer, Lamont (Big L) Coleman, continues to inspire generations of rap’s elite MCs. With classic albums like Lifestylez ov da Poor & Dangerous and The Big Picture, Big L carved his name into rap history as one of the most original and consistent voices in the game. 25 Years Later…The Wait is Over. Harlem’s Finest: Return Of The King is FINALLY here.`,
     tracklist: [
-      "A1 Intro",
-      "A2 Deep Into The Woods",
-      "A3 Wicked Ways",
-      "A4 Don’t Forget To Grab Your Mask",
-      "A5 Interlude",
-      "A6 Lay It Down",
-      "A7 Just Want To Know",
-      "B1 Glock Sounds",
-      "B2 Suffer",
-      "B3 Full of Phonk",
-      "B4 Cold Hearted",
-      "B5 Devil SHH",
-      "B6 Look Into The Eyes of The Mask",
-      "B7 Deep Into The Woods Remix",
+      "A1 Harlem Universal feat Herb McGruff",
+      "A2 U aint gotta chance feat Nas",
+      "A3 RHN (Real Harlem Niggas) feat Errol Holden",
+      "A4 Fred Samuel Playground feat Method Man",
+      "A5 All Alone (Quiet Storm Mix) feat Novel",
+      "A6 Big Lee & Reg feat Errol Holden",
+      "A7 Minute Freestyle feat Jay-Z",
+      "B1 Forever feat Mac Miller & Pale Jay",
+      "B2 Doo Wop Freestyle ('99) feat Joe Budden",
+      "B3 Stretch & Bob Freestyle ('98) feat Donald Phinazee & Sacha Jenkins",
+      "B4 Grants Tomb '97 (JazzMobile) feat Joey BadA$$, BVNGS and Ron G",
+      "B5 Live @ Rock N Will '92 feat Showbiz",
+      "B6 How Will I Make It (Park West High School Mix)",
+      "B7 BONUS: Put The Mic Down feat fergie Baby & Party Arty",
     ],
-    img: "assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/BigL_600x.png",
   },
   {
     id: 17,
-    title: "The Single",
-    artist: "Children of The Corn",
+    title: "Get Rich or Die Tryin'",
+    artist: "50 Cent",
     price: 359.99,
-    type: "Vinil LP (Colored)",
-    description: `Originally recorded while still in high school, Lil Grimm’s Children of the Corn emerged from the heart of Memphis’ underground rap scene in October 1995. Released first on cassette in a tiny run that circulated hand-to-hand, the record became a word-of-mouth phenomenon—passed around schoolyards, dubbed on boom boxes, and traded in parking lots long before “going viral” had a name. In 2020, a limited vinyl pressing emerged, but the album had never received a proper, fully remastered edition—until now.
-
-    For the first time ever, Gate Girl Records proudly presents the 30th Anniversary Remastered Edition of this underground Memphis rap classic. This release restores the raw power of the original while elevating its eerie, lo-fi textures into something sharper and more immersive.
-
-    Influenced by the rising “horrorcore” sound pioneered by Memphis legends DJ Paul and DJ Squeeky, Grimm and his crew put their own sinister twist on the formula: haunting samples, ghostly synth lines, and a suffocating atmosphere that set them apart in the city’s fertile underground. The Children of the Corn project blended Grimm’s grim storytelling with the paranoia and menace of early-90s Memphis street culture—earning it cult status among tape collectors and rap historians alike.
-
-    Key tracks like “Deep Into the Woods” and “Devil Sh*t” showcase Grimm’s ability to paint vivid, nightmarish soundscapes, striking a balance between street authenticity and horror-fueled surrealism. These songs, and the record as a whole, would go on to influence generations of DIY rappers who built their identities on limited cassette runs, dark beats, and relentless hustle.
-
-    With its 30th Anniversary Remastered Edition, Children of the Corn is no longer just a local legend—it stands as a cornerstone of Memphis rap history, preserved for longtime fans and new listeners alike.`,
+    type: "Vinil 2xLP (Colored)",
+    description: `50 Cent's debut studio album on double vinyl.`,
     tracklist: [
       "A1 Intro",
-      "A2 Deep Into The Woods",
-      "A3 Wicked Ways",
-      "A4 Don’t Forget To Grab Your Mask",
-      "A5 Interlude",
-      "A6 Lay It Down",
-      "A7 Just Want To Know",
-      "B1 Glock Sounds",
-      "B2 Suffer",
-      "B3 Full of Phonk",
-      "B4 Cold Hearted",
-      "B5 Devil SHH",
-      "B6 Look Into The Eyes of The Mask",
-      "B7 Deep Into The Woods Remix",
+      "A2 What Up Gangsta",
+      "A3 Patiently Waiting Featuring – Eminem",
+      "A4 Many Men (Wish Death)",
+      "B1 In Da Club",
+      "B2 High All The Time",
+      "B3 Heat",
+      "B4 If I Can't",
+      "C1 Blood Hound -Featuring – Young Buck Of G-Unit",
+      "C2 Back Down",
+      "C3 P.I.M.P.",
+      "C4 Like My Style Featuring – Tony Yayo Of G-Unit",
+      "D1 Poor Lil Rich",
+      "D2 21 Questions Featuring – Nate Dogg",
+      "D3 Don't Push Me Featuring – Eminem, Lloyd Banks Of G-Unit",
+      "D4 Gotta Make It To Heaven",
     ],
-    img: "assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/50Cent_600x.png",
   },
   {
     id: 18,
-    title: "The Single",
-    artist: "Children of The Corn",
-    price: 359.99,
-    type: "Vinil LP (Colored)",
-    description: `Originally recorded while still in high school, Lil Grimm’s Children of the Corn emerged from the heart of Memphis’ underground rap scene in October 1995. Released first on cassette in a tiny run that circulated hand-to-hand, the record became a word-of-mouth phenomenon—passed around schoolyards, dubbed on boom boxes, and traded in parking lots long before “going viral” had a name. In 2020, a limited vinyl pressing emerged, but the album had never received a proper, fully remastered edition—until now.
-
-    For the first time ever, Gate Girl Records proudly presents the 30th Anniversary Remastered Edition of this underground Memphis rap classic. This release restores the raw power of the original while elevating its eerie, lo-fi textures into something sharper and more immersive.
-
-    Influenced by the rising “horrorcore” sound pioneered by Memphis legends DJ Paul and DJ Squeeky, Grimm and his crew put their own sinister twist on the formula: haunting samples, ghostly synth lines, and a suffocating atmosphere that set them apart in the city’s fertile underground. The Children of the Corn project blended Grimm’s grim storytelling with the paranoia and menace of early-90s Memphis street culture—earning it cult status among tape collectors and rap historians alike.
-
-    Key tracks like “Deep Into the Woods” and “Devil Sh*t” showcase Grimm’s ability to paint vivid, nightmarish soundscapes, striking a balance between street authenticity and horror-fueled surrealism. These songs, and the record as a whole, would go on to influence generations of DIY rappers who built their identities on limited cassette runs, dark beats, and relentless hustle.
-
-    With its 30th Anniversary Remastered Edition, Children of the Corn is no longer just a local legend—it stands as a cornerstone of Memphis rap history, preserved for longtime fans and new listeners alike.`,
+    title: "Dats How It Happen To 'M",
+    artist: "Da Headbussaz",
+    price: 112.30,
+    type: "Cassette",
+    description: `Hypnotize Minds presents the only studio album by Da Headbussaz, a collaboration between Memphis' Three 6 Mafia and New Orleans' Fiend produced by Juicy J and DJ Paul.  The album was originally released on CD and cassette in 2002.  Following our Triple 6 Mafia Underground cassette reissue series, Da Headbussaz is being reissued on cassette with a fold-out J-Card.`,
     tracklist: [
-      "A1 Intro",
-      "A2 Deep Into The Woods",
-      "A3 Wicked Ways",
-      "A4 Don’t Forget To Grab Your Mask",
-      "A5 Interlude",
-      "A6 Lay It Down",
-      "A7 Just Want To Know",
-      "B1 Glock Sounds",
-      "B2 Suffer",
-      "B3 Full of Phonk",
-      "B4 Cold Hearted",
-      "B5 Devil SHH",
-      "B6 Look Into The Eyes of The Mask",
-      "B7 Deep Into The Woods Remix",
+      "A1 It's Bought To Happen To 'M",
+      "A2 Where They Hang",
+      "A3 U See We Poe Featuring – Crunchy Black, Project Pat",
+      "A4 HeadBussaz",
+      "A5 How To Get Rid Of A Dead Body",
+      "A6 Dats How It Happen To 'M",
+      "A7 Powder Cake Featuring – Frayser Boy, La' Chat",
+      "A8 Out My Face",
+      "B1 Smoke If U Got It",
+      "B2 Hands On Ya",
+      "B3 Roughest Niggaz Out",
+      "B4 Crap Table (Skit)",
+      "B5 Crown Me",
+      "B6 Gon Be Some Sh*t",
+      "B7 U See We Poe (Screwed) Featuring – Crunchy Black, Project Pat",
+      "B8 Hypnotize Minds & Fiend Ent.",
     ],
-    img: "assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/daheadbussaztape_600x.png",
   },
   {
     id: 19,
-    title: "The Single",
-    artist: "Children of The Corn",
-    price: 359.99,
+    title: "Skinny Pimp Vol 1",
+    artist: "Kingpin Skinny Pimp",
+    price: 244.80,
     type: "Vinil LP (Colored)",
-    description: `Originally recorded while still in high school, Lil Grimm’s Children of the Corn emerged from the heart of Memphis’ underground rap scene in October 1995. Released first on cassette in a tiny run that circulated hand-to-hand, the record became a word-of-mouth phenomenon—passed around schoolyards, dubbed on boom boxes, and traded in parking lots long before “going viral” had a name. In 2020, a limited vinyl pressing emerged, but the album had never received a proper, fully remastered edition—until now.
+    description: `Smoky Hustler music by North Memphis's Skinny Pimp, a former member of Three 6 Mafia recorded in 1993 and originally released on cassette.
 
-    For the first time ever, Gate Girl Records proudly presents the 30th Anniversary Remastered Edition of this underground Memphis rap classic. This release restores the raw power of the original while elevating its eerie, lo-fi textures into something sharper and more immersive.
+    This is part of Now Again Records multiple LP series on the History of Memphis Rap, which attempts to capture Memphis and its underground rap scene as it began to produce some of the most distinctive music of the ’90s.
 
-    Influenced by the rising “horrorcore” sound pioneered by Memphis legends DJ Paul and DJ Squeeky, Grimm and his crew put their own sinister twist on the formula: haunting samples, ghostly synth lines, and a suffocating atmosphere that set them apart in the city’s fertile underground. The Children of the Corn project blended Grimm’s grim storytelling with the paranoia and menace of early-90s Memphis street culture—earning it cult status among tape collectors and rap historians alike.
+    This was a unique hip-hop strain – visceral and often vicious. It was a local, low-fi, cassette-tape based movement – yet it went on to change the course of rap music.
 
-    Key tracks like “Deep Into the Woods” and “Devil Sh*t” showcase Grimm’s ability to paint vivid, nightmarish soundscapes, striking a balance between street authenticity and horror-fueled surrealism. These songs, and the record as a whole, would go on to influence generations of DIY rappers who built their identities on limited cassette runs, dark beats, and relentless hustle.
+    These albums have never been pressed on vinyl – until now. From Skinny Pimp and Carmike to Gangsta Blac and Shawty Pimp, these albums have been relegated to the proverbial bins of history and bootlegged, with unofficial copies still fetching top dollar on the secondary market. These albums were all licensed directly from their original creators, and come on limited edition colored vinyl with artist-approved imagery for their first LP iterations.
 
-    With its 30th Anniversary Remastered Edition, Children of the Corn is no longer just a local legend—it stands as a cornerstone of Memphis rap history, preserved for longtime fans and new listeners alike.`,
+    You can read the story of the Memphis Rap scene in a 12-page, oversized booklet with notes by Torii MacAdams. It captures the story of Memphis rap starting with the city’s founding and ending with an auto supply shop that sold these albums over the counter, with all points in between.`,
     tracklist: [
-      "A1 Intro",
-      "A2 Deep Into The Woods",
-      "A3 Wicked Ways",
-      "A4 Don’t Forget To Grab Your Mask",
-      "A5 Interlude",
-      "A6 Lay It Down",
-      "A7 Just Want To Know",
-      "B1 Glock Sounds",
-      "B2 Suffer",
-      "B3 Full of Phonk",
-      "B4 Cold Hearted",
-      "B5 Devil SHH",
-      "B6 Look Into The Eyes of The Mask",
-      "B7 Deep Into The Woods Remix",
+      "A1 Inkmatized (Westhaven Smoke One)",
+      "A2 Skinny Pimpin Hoez",
+      "A3 Skit",
+      "A4 Psychopathic Lunatic",
+      "A5 Boom Dat Shit Featuring – Lady B",
+      "B1 Killa Featuring – Lil Gin, Lil' Sko",
+      "B2 Skinny Shouts",
+      "B3 Dirty Tramp",
+      "B4 If U Didn't Know Bitch",
     ],
-    img: "assets/img/childrenofthecornMain600x.png",
+    img: "assets/img/skinyypimp.png",
   },
   {
     id: 20,

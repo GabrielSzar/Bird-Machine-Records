@@ -1,0 +1,40 @@
+main {
+    padding: 2rem;
+}
+.orders {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.order {
+    background: var(--cinza);
+    border: 1px solid var(--cinzacl);
+    border-radius: 3px;
+    width: 60%;
+    height: 200px;
+    padding: 1rem;
+}
+.order-img {
+    background: url(../img/childrenofthecornMain600x.png);
+    width: 148px;
+    height: 148px;
+    background-size: cover;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+.content-1 {
+    display: flex;
+}
+.order-infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.content-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

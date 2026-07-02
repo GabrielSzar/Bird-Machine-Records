@@ -10,7 +10,7 @@ if (product) {
   });
   document.querySelector(".disco-artist").textContent = product.artist;
   document.querySelector(".disco-price").textContent =
-    `Price: R$ ${product.price.toFixed(2)}`;
+    `Preço: R$ ${product.price.toFixed(2)}`;
   document.querySelector(".disco-type").textContent = product.type;
   document.querySelector(".disco-desc").innerHTML = product.description
     .split("\n\n")

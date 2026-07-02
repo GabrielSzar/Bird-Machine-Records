@@ -1,0 +1,61 @@
+main {
+    display: flex;
+    > div {
+        border: 1px solid var(--cinzacl);
+        padding: 3rem;
+        height: 90vh;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    img {
+        margin: 1rem;
+    }
+    > h1 {
+        padding-top: 3rem;
+    }
+    > p {
+        padding: 4rem 0rem;
+    }
+}
+.login-others {
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+
+    > div {
+        border: 1px solid var(--cinzacl);
+        padding: 0.5rem;
+        width: 49%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    > div:hover {
+        transition: 0.6s;
+        border: 1px solid var(--tercearia);
+        border-radius: 3px;
+        background: var(--preto);
+    }
+    a {
+        display: flex;
+        align-items: center;
+    }
+    p {
+        padding: 0.5rem;
+        font-size: 1.5rem;
+    }
+}
+.google-icon {
+    background: url(../svg/google-color.svg);
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+}
+.facebook-icon {
+    background: url(../svg/facebook-color.svg);
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+}

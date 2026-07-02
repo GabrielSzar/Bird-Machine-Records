@@ -1,0 +1,13 @@
+.header {
+    height: 130px;
+    h1 {
+        padding: 30px 0px;
+    }
+}
+.products-container {
+    display: flex;
+}
+.filters-container {
+    width: 450px;
+    padding: 25px;
+}

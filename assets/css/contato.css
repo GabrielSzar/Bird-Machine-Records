@@ -36,7 +36,6 @@ main {
 }
 .contact-location {
     background: url(../svg/location-dot-solid-full.svg);
-    
 }
 .contact-message {
     display: flex;
@@ -45,30 +44,4 @@ main {
     h1 {
         margin-bottom: 2rem;
     }
-}
-form {
-    display: flex;
-    flex-direction: column;
-    textarea {
-        height: 100px;
-        padding: 1rem;
-        margin: 1rem;
-        background: var(--preto);
-        border: 1px solid var(--tercearia);
-        border-radius: 3px;
-    }
-}
-.input {
-    height: 50px;
-    padding: 1rem;
-    margin: 1rem;
-    background: var(--preto);
-    border: 1px solid var(--tercearia);
-    border-radius: 3px;
-}
-.submit:hover {
-    transition: 0.6s;
-    background-color: var(--tercearia);
-    border-color: var(--cinzacl);
-    color: var(--preto);
 }

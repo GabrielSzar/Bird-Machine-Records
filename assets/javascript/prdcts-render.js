@@ -4,6 +4,14 @@ import { merchs } from "./merchs.js";
 const grid = document.querySelector(".grid-products");
 const merchGrid = document.querySelector(".grid-merch");
 
+const isHome = grid.dataset.preview === "true";
+
+const preview = isHome ? "grid-5" : "grid-4";
+grid.classList.add(preview);
+if (merchGrid) { 
+  merchGrid.classList.add(preview);
+}
+
 if (grid) {
   const isHome = grid.dataset.preview === "true";
   const list = isHome ? products.slice(0, 5) : products;
